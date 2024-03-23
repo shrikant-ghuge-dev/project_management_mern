@@ -3,12 +3,12 @@ import logo from './../assets/react.svg'
 
 const Header = () => {
     return (
-        <nav className="navbar bg-light mb-4 p-0">
+        <nav className="navbar bg-light mb-4 p-2">
             <div className="container">
                 <a className='navbar-brand' href="/">
                     <div className="d-flex">
                         <img src={logo} alt="" />
-                        <div>project</div>
+                        <div>Project Management</div>
                     </div>
                 </a>
             </div>
